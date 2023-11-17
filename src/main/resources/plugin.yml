@@ -1,0 +1,13 @@
+name: ExotikLibrary
+version: '${project.version}'
+main: exotik.exotiklibrary.ExotikLibrary
+api-version: 1.16
+prefix: Exotik Library
+authors: [The_Exotik]
+website: https://github.com/TheExotik
+description: Library of Exotik.
+commands:
+  Donation:
+    description: Send a donation to Exotik.
+  Library:
+    description: Main command for all commands of "Exotik Library" plugin.

@@ -1,0 +1,14 @@
+# Main config file for "Exotik Library"
+
+# All saving features
+DataSaving:
+  # Delay between each save of 'Block Data' in minutes (Default is '5')
+  BlockData: 5
+
+# All options for blocks (Blocks within 'Block Data')
+Blocks:
+  # Can blocks be exploded by Creepers/TNT/Fireball? (Default is 'False')
+  CanBeExploded:
+    byTNT: false
+    byCreeper: false
+    byFireball: false
