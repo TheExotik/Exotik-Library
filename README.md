@@ -3,5 +3,6 @@
 
 # **What do i mean "Customizable"??**
 - This library offers to you (server creator) and you (plugin developer) a bunch of features, as:
-- `Files creation, manipulation. `
-- `Items & Blocks creation (custom inventories, machines, permissions...). `
+- `Files creation, manipulation. (Developers) You can easily create any folder and file with a simple single line, you can also manipulate this file as you desire.`
+- `Items & Blocks creation (custom inventories, machines, permissions...). (Both) You can create any custom block and item using "ExotikLibrary/Creation/Items.yml" file. You can customize yours blocks/items with simples line, for example: "BlockInventory.create(block,player,54,"Diamond Chest")"
+this will create a custom inventory to the block you have informed, and add player as the Owner of the block, so no one can access (except players who have OP or have been added to whitelist by the owner using "/library access add <player>"`
